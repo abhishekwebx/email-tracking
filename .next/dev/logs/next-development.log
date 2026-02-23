@@ -1,2 +1,77 @@
+<<<<<<< Updated upstream
 [00:00:01.392] Server  LOG     ✓ Ready in 984ms
 [00:06:06.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:43.911] Server  ERROR   ⨯ ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:44.397] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+[00:01:45.100] Server  ERROR   ModuleBuildError: ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.102] Server  ERROR   Error: Panic in async function
+[00:01:45.106] Server  ERROR   Error: ENOSPC: no space left on device, write
+[00:01:45.107] Server  ERROR   ⨯ "uncaughtException:" Error: ENOSPC: no space left on device, write
+[00:01:45.107] Server  ERROR   ⨯ "uncaughtException: " Error: ENOSPC: no space left on device, write
+[00:01:45.127] Server  ERROR   ⨯ ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.208] Server  ERROR   ModuleBuildError: ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.212] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+[00:01:45.213] Server  ERROR   Error: Panic in async function
+[00:01:45.229] Server  ERROR   ⨯ ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.237] Server  ERROR   ⨯ ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.413] Server  ERROR   ModuleBuildError: ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.492] Server  ERROR   ModuleBuildError: ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.499] Server  ERROR   Error: Panic in async function
+[00:01:45.516] Browser ERROR   ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+[00:01:45.516] Server  ERROR   Error: Panic in async function
+[00:01:45.534] Server  ERROR   ⨯ ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.592] Server  ERROR   ModuleBuildError: ./package.json:1:1
+Error parsing package.json file
+package.json is not parseable: invalid JSON: EOF while parsing a value at line 1 column 0
+
+
+[00:01:45.597] Server  ERROR   Error: Panic in async function
+=======
+[00:00:01.610] Server  LOG     ✓ Ready in 1232ms
+[00:00:09.594] Server  LOG     ○ Compiling /crm/send ...
+[00:00:13.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.849] Browser WARN    [tiptap warn]: Duplicate extension names found: ['link', 'underline']. This can lead to issues.
+[00:00:20.101] Browser WARN    [tiptap warn]: Duplicate extension names found: ['link', 'underline']. This can lead to issues.
+>>>>>>> Stashed changes

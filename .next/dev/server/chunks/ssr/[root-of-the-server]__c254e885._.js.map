@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/hp/Desktop/email-traking%20sainty/email-tracking-next/app/crm/draft-mail/page.tsx"],"sourcesContent":["export default function DraftMailPage() {\n    return (\n        <div>\n            <h1 className=\"text-2xl font-bold\">Draft Mail</h1>\n        </div>\n    )\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,kTAAC;kBACG,cAAA,kTAAC;YAAG,WAAU;sBAAqB;;;;;;;;;;;AAG/C"}}]
-}

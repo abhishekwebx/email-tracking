@@ -4,20 +4,20 @@ globalThis.__BUILD_MANIFEST = {
   },
   "devFiles": [],
   "polyfillFiles": [
-    "static/chunks/9a37d_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_c0493fc1._.js",
-    "static/chunks/9a37d_next_dist_compiled_react-dom_eed5e54f._.js",
-    "static/chunks/9a37d_next_dist_compiled_react-server-dom-turbopack_62240e4f._.js",
-    "static/chunks/9a37d_next_dist_compiled_next-devtools_index_da6b3c04.js",
-    "static/chunks/9a37d_next_dist_compiled_86b70021._.js",
-    "static/chunks/9a37d_next_dist_client_345bf634._.js",
-    "static/chunks/9a37d_next_dist_2098c40f._.js",
-    "static/chunks/9a37d_@swc_helpers_cjs_84acc384._.js",
-    "static/chunks/Desktop_email-traking sainty_email-tracking-next_a0ff3932._.js",
-    "static/chunks/turbopack-Desktop_email-traking sainty_email-tracking-next_e0b11463._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_956a0d3a._.js",
+    "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
+    "static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_9212ccad._.js",
+    "static/chunks/node_modules_next_dist_compiled_next-devtools_index_1dd7fb59.js",
+    "static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js",
+    "static/chunks/node_modules_next_dist_client_17643121._.js",
+    "static/chunks/node_modules_next_dist_f3530cac._.js",
+    "static/chunks/node_modules_@swc_helpers_cjs_d80fb378._.js",
+    "static/chunks/_a0ff3932._.js",
+    "static/chunks/turbopack-_23a915ee._.js"
   ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
