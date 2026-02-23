@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/email-traking sainty/email-tracking-next/app/crm/send/editor.css"],"sourcesContent":[".email-editor {\n  padding: 40px;\n  min-height: 400px;\n  font-family: Arial, Helvetica, sans-serif;\n  line-height: 1.6;\n  font-size: 15px;\n  color: #111;\n}\n\n/* Paragraph */\n.email-editor p {\n  margin: 12px 0;\n}\n\n/* Heading */\n.email-editor h1,\n.email-editor h2,\n.email-editor h3 {\n  font-weight: 600;\n  margin: 18px 0;\n}\n\n/* Lists */\n.email-editor ul,\n.email-editor ol {\n  padding-left: 20px;\n}\n\n/* Images */\n.email-editor img {\n  max-width: 100%;\n  border-radius: 8px;\n  margin: 12px 0;\n}\n\n/* Placeholder */\n.email-editor p.is-editor-empty:first-child::before {\n  content: attr(data-placeholder);\n  color: #9ca3af;\n  pointer-events: none;\n  float: left;\n  height: 0;\n}\n\n\n.tiptap{\n    height: 300px;\n    display: inline-block;\n    width: 100%;\n    border: none;\n    padding: 5px;\n}\n\n.ProseMirror:focus{\n    outline: none;\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AAUA;;;;AAKA;;;;;AAQA;;;;AAMA;;;;;;AAOA;;;;;;;;AASA;;;;;;;;AAQA"}}]
+}

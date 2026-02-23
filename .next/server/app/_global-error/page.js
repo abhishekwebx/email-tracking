@@ -1,0 +1,11 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fff20339._.js")
+R.c("server/chunks/ssr/Desktop_email-traking sainty_email-tracking-next_1c3d45f2._.js")
+R.c("server/chunks/ssr/9a37d_next_dist_7be0b4a3._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__e2b36db9._.js")
+R.c("server/chunks/ssr/9a37d_cb6753fb._.js")
+R.c("server/chunks/ssr/9a37d_next_dist_c180ba01._.js")
+R.c("server/chunks/ssr/Desktop_email-traking sainty_email-tracking-next_app_a8eaed90._.js")
+R.c("server/chunks/ssr/527ff__next-internal_server_app__global-error_page_actions_57f4245e.js")
+R.m(32520)
+module.exports=R.m(32520).exports

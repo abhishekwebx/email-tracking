@@ -1,0 +1,10 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/send/route.js")
+R.c("server/chunks/[root-of-the-server]__318e1314._.js")
+R.c("server/chunks/[root-of-the-server]__9119390d._.js")
+R.c("server/chunks/9a37d_next_43d4aed2._.js")
+R.c("server/chunks/[root-of-the-server]__ebd94e1c._.js")
+R.c("server/chunks/[root-of-the-server]__214cbf6b._.js")
+R.c("server/chunks/[root-of-the-server]__9407a523._.js")
+R.c("server/chunks/6a5b2_email-tracking-next__next-internal_server_app_api_send_route_actions_23f5a2fb.js")
+R.m(55673)
+module.exports=R.m(55673).exports

@@ -1,0 +1,56 @@
+.email-editor {
+  padding: 40px;
+  min-height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #111;
+}
+
+/* Paragraph */
+.email-editor p {
+  margin: 12px 0;
+}
+
+/* Heading */
+.email-editor h1,
+.email-editor h2,
+.email-editor h3 {
+  font-weight: 600;
+  margin: 18px 0;
+}
+
+/* Lists */
+.email-editor ul,
+.email-editor ol {
+  padding-left: 20px;
+}
+
+/* Images */
+.email-editor img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+/* Placeholder */
+.email-editor p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  color: #9ca3af;
+  pointer-events: none;
+  float: left;
+  height: 0;
+}
+
+
+.tiptap{
+    height: 300px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+
+.ProseMirror:focus{
+    outline: none;
+}

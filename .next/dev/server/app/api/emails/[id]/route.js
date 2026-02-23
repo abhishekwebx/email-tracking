@@ -1,0 +1,10 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/emails/[id]/route.js")
+R.c("server/chunks/9a37d_@sanity_734cb298._.js")
+R.c("server/chunks/9a37d_next_15ef2b08._.js")
+R.c("server/chunks/9a37d_rxjs_dist_cjs_795af5e2._.js")
+R.c("server/chunks/9a37d_@sanity_client_dist_b704f225._.js")
+R.c("server/chunks/9a37d_054e4757._.js")
+R.c("server/chunks/[root-of-the-server]__fde40733._.js")
+R.c("server/chunks/527ff__next-internal_server_app_api_emails_[id]_route_actions_39882628.js")
+R.m("[project]/Desktop/email-traking sainty/email-tracking-next/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Desktop/email-traking sainty/email-tracking-next/app/api/emails/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Desktop/email-traking sainty/email-tracking-next/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Desktop/email-traking sainty/email-tracking-next/app/api/emails/[id]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
