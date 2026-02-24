@@ -75,12 +75,18 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$client$2f$dist$2f$index$2e$browser$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@sanity/client/dist/index.browser.js [app-route] (ecmascript) <locals>");
 ;
 const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$client$2f$dist$2f$index$2e$browser$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])({
-    projectId: "lgzekbmp",
-    dataset: "production",
+    projectId: ("TURBOPACK compile-time value", "lgzekbmp"),
+    dataset: ("TURBOPACK compile-time value", "production") || "production",
     apiVersion: "v2026-01-28",
     token: process.env.SANITY_API_TOKEN,
     useCdn: true
-});
+}); // export const client = createClient({
+ //   projectId: 'lgzekbmp',
+ //   dataset: "production",
+ //   apiVersion: "v2026-01-28",
+ //   token: 'skDy1neK31eH3iQCoqGowuHV7m4MGnKVNB5y7yDft8e2rSYm4wS4djmgYFcYpNfqUOMhj677Bw3AfSbLkdrvVmO1zaUAQlQh1TWUVluuifcd4Twa8J9sFRTsrWxKzlxLXgodmLj6GGXq0hX3okxz4Mdr6tAbciDAHnaUMbdD9weCygJDNonY',
+ //   useCdn: true,
+ // });
 }),
 "[project]/app/api/auth/login/route.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

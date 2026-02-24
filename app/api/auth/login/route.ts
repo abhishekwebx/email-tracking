@@ -2,10 +2,10 @@ import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { client } from "@/app/sanity/client";
+
 export async function POST(req: Request) {
   try {
     const { identifier, password } = await req.json();
-    // identifier = email OR userId
 
     if (!identifier || !password) {
       return NextResponse.json(
@@ -19,7 +19,7 @@ export async function POST(req: Request) {
       { id: identifier }
     );
 
-    if (!user) {
+    if (!user || !user.password) {
       return NextResponse.json(
         { success: false, message: "User not found" },
         { status: 404 }
@@ -35,9 +35,14 @@ export async function POST(req: Request) {
       );
     }
 
+    // ✅ Ensure secret exists
+    if (!process.env.JWT_SECRET) {
+      throw new Error("JWT_SECRET not configured");
+    }
+
     const token = jwt.sign(
       { userId: user._id, email: user.email },
-      process.env.JWT_SECRET!,
+      process.env.JWT_SECRET,
       { expiresIn: "1d" }
     );
 
@@ -50,10 +55,12 @@ export async function POST(req: Request) {
         userId: user.userId,
       },
     });
-  } catch (error) {
+
+  } catch (error: any) {
     console.error("LOGIN ERROR:", error);
+
     return NextResponse.json(
-      { success: false, message: "Server error" },
+      { success: false, message: error.message || "Server error" },
       { status: 500 }
     );
   }

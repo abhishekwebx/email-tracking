@@ -1,3 +1,18 @@
-[00:00:01.604] Server  WARN    ⚠ Turbopack's filesystem cache has been deleted. Builds or page loads may be slower as a result.
-[00:00:02.008] Server  LOG     ✓ Ready in 1462ms
-[00:14:26.172] Server  LOG       Reload env: .env.local
+[00:00:01.814] Server  LOG     ✓ Ready in 1382ms
+[00:00:08.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:05.411] Server  ERROR   LOGIN ERROR: Error: Unauthorized - Session does not match project host
+[00:01:38.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:52.722] Server  ERROR   LOGIN ERROR: Error: Unauthorized - Session does not match project host
+[00:03:23.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:27.601] Server  ERROR   LOGIN ERROR: Error: Unauthorized - Session does not match project host
+[00:03:56.658] Server  ERROR   ⨯ Error: Unauthorized - Session does not match project host
+[00:03:56.790] Server  ERROR   ⨯ Error: Unauthorized - Session does not match project host
+[00:03:56.835] Browser ERROR   Error fetching emails: {}
+[00:03:56.936] Browser ERROR   Error fetching emails: {}
+[00:04:17.719] Server  ERROR   ⨯ Error: Unauthorized - Session does not match project host
+[00:04:17.823] Browser ERROR   Error fetching emails: {}
+[00:04:28.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:29.056] Server  ERROR   ⨯ Error: Unauthorized - Session does not match project host
+[00:04:29.132] Server  ERROR   ⨯ Error: Unauthorized - Session does not match project host
+[00:04:29.237] Browser ERROR   Error fetching emails: {}
+[00:04:29.237] Browser ERROR   Error fetching emails: {}

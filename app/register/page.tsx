@@ -35,7 +35,7 @@ export default function RegisterPage() {
     try {
       // const id = uuidv4(); // Generate unique registration ID
 
-      const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/auth/register`, {
+      const res = await fetch(`/api/auth/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, password }),
@@ -91,7 +91,7 @@ export default function RegisterPage() {
               <input
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="Abhishek Saini"
+                placeholder="Enter Full Name"
                 className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 outline-none transition focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
               />
             </div>

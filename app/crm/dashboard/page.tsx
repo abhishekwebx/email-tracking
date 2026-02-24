@@ -59,7 +59,7 @@ export default function DashboardPage() {
       // });
       try {
         const res = await fetch(
-          `${process.env.NEXT_PUBLIC_BASE_URL}/api/emails?filter=${filter}`,
+          `/api/emails?filter=${filter}`,
           {
             headers: {
               Authorization: `Bearer ${localStorage.getItem("token")}`,

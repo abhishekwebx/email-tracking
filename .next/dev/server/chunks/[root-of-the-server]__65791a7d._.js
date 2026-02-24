@@ -58,11 +58,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$
 ;
 const sanity = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$client$2f$dist$2f$index$2e$browser$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])({
     projectId: ("TURBOPACK compile-time value", "lgzekbmp"),
-    dataset: 'production',
-    apiVersion: '2024-01-01',
-    token: process.env.SANITY_API_TOKEN,
+    dataset: ("TURBOPACK compile-time value", "production") || "production",
+    apiVersion: "2024-01-01",
+    // token: process.env.SANITY_API_TOKEN,
+    token: process.env.SANITY_API_WRITE_TOKEN,
     useCdn: false
-}) // async function deleteAllEmails() {
+}); // async function deleteAllEmails() {
  //   try {
  //     // GROQ query to fetch all email _id's
  //     const emails = await sanity.fetch(`*[_type == "emails"]{_id}`);
@@ -75,7 +76,6 @@ const sanity = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$
  //   }
  // }
  // deleteAllEmails();
-;
 }),
 "[project]/app/api/templates/route.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

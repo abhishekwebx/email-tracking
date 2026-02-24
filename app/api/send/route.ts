@@ -107,7 +107,7 @@ function trackLinks(html: string, emailId: string) {
   return html.replace(
     /href="(.*?)"/g,
     (_, url) =>
-      `href="${process.env.NEXT_PUBLIC_BASE_URL}/api/click?id=${emailId}&url=${encodeURIComponent(
+      `href="/api/click?id=${emailId}&url=${encodeURIComponent(
         url,
       )}"`,
   );
@@ -183,7 +183,7 @@ export async function POST(req: Request) {
     for (const recipient of recipients) {
       const trackedBody = trackLinks(body, emailDoc._id);
 
-      const pixel = `<img src="${process.env.NEXT_PUBLIC_BASE_URL}/api/open?id=${emailDoc._id}" width="1" height="1" style="display:none;" />`;
+      const pixel = `<img src="/api/open?id=${emailDoc._id}" width="1" height="1" style="display:none;" />`;
 
       await transporter.sendMail({
         from: `"${senderName || "CRM"}" <${process.env.MAIL_USER}>`,

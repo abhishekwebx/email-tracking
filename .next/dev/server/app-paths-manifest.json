@@ -1,3 +1,7 @@
 {
-  "/api/auth/login/route": "app/api/auth/login/route.js"
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/emails/route": "app/api/emails/route.js",
+  "/crm/dashboard/page": "app/crm/dashboard/page.js",
+  "/crm/templates/page": "app/crm/templates/page.js",
+  "/login/page": "app/login/page.js"
 }

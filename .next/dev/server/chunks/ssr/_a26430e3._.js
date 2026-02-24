@@ -244,7 +244,7 @@ function DashboardPage() {
             //   },
             // });
             try {
-                const res = await fetch(`${("TURBOPACK compile-time value", "http://localhost:3000")}/api/emails?filter=${filter}`, {
+                const res = await fetch(`/api/emails?filter=${filter}`, {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem("token")}`
                     }
